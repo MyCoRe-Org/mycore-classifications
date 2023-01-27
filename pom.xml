@@ -25,7 +25,7 @@
     <version>51</version>
   </parent>
   <artifactId>mycore-classifications</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <url>https://www.mycore.de/classifications/</url>
   <licenses>
@@ -43,6 +43,6 @@
     <connection>scm:git:https://github.com/MyCoRe-Org/mycore-classifications.git</connection>
     <developerConnection>scm:git:https://github.com/MyCoRe-Org/mycore-classifications.git</developerConnection>
     <url>https://github.com/MyCoRe-Org/mycore-classifications</url>
-    <tag>v1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 </project>
