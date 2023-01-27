@@ -25,10 +25,6 @@
     <version>51</version>
   </parent>
   <artifactId>mycore-classifications</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-
-  <scm>
-    <tag>v1.0</tag>
-  </scm>
 </project>
