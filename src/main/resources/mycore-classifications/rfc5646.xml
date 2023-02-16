@@ -4747,6 +4747,8 @@
       <label text="una" xml:lang="x-term"/>
     </category>
     <category ID="und">
+      <label text="Undefiniert" xml:lang="de"
+             description="wird für Texte verwendet, deren Sprache nicht definiert (undetermined, undefined) ist"/>
       <label text="Undetermined" xml:lang="en"/>
       <label text="und" xml:lang="x-bibl"/>
       <label text="und" xml:lang="x-term"/>
@@ -17818,6 +17820,8 @@
       <label text="ivv" xml:lang="x-term"/>
     </category>
     <category ID="zxx">
+      <label text="Kein sprachlicher Inhalt" xml:lang="de"
+             description="wird für Dokumente verwendet, die keinen Text enthalten wie Notendrucke oder Fotos"/>
       <label text="No linguistic content" xml:lang="en"/>
       <label text="zxx" xml:lang="x-bibl"/>
       <label text="zxx" xml:lang="x-term"/>
@@ -24951,6 +24955,8 @@
       <label text="mip" xml:lang="x-term"/>
     </category>
     <category ID="mis">
+      <label text="Unkodierte Sprachen" xml:lang="de" 
+             description="wird für Texte in solchen Sprachen verwendet, denen noch kein (missing) ISO-Code zugewiesen wurde" />
       <label text="Uncoded languages" xml:lang="en"/>
       <label text="mis" xml:lang="x-bibl"/>
       <label text="mis" xml:lang="x-term"/>
@@ -26386,6 +26392,8 @@
       <label text="mum" xml:lang="x-term"/>
     </category>
     <category ID="mul">
+      <label text="Mehrsprachig" xml:lang="de"
+             description="wird für Texte verwendet, in denen mehreren (multiple) Sprachen verwendet werden"/>
       <label text="Multiple languages" xml:lang="en"/>
       <label text="mul" xml:lang="x-bibl"/>
       <label text="mul" xml:lang="x-term"/>
