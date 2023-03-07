@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="kdsf">
   <label xml:lang="de" text="KDSF-Publikationen" description="Ausdifferenzierungs-Hierachie des KSDF für Publikationen" />
-  <label xml:lang="x-skos-exact" text="uri.gbv.de/terminology/kdsf" />
+  <label xml:lang="x-skos-exact" text="https://uri.gbv.de/terminology/kdsf/" />
   <label xml:lang="x-uri" text="https://www.mycore.org/classifications/kdsf" />
   <categories>
     <category ID="Pu4a">
