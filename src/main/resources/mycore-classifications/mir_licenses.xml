@@ -35,7 +35,7 @@
       </category>
     </category>
     <category ID="cc_3.0">
-      <label xml:lang="en" text="Creative Commons 3.0 International Lizences" />
+      <label xml:lang="en" text="Creative Commons 3.0 International Licenses" />
       <label xml:lang="de" text="Creative Commons 3.0 International Lizenzen" />
       <label xml:lang="x-group" text="true" />
       <url xlink:href="https://creativecommons.org/licenses/" xlink:type="locator" />
@@ -77,7 +77,7 @@
       </category>
     </category>
     <category ID="cc_4.0">
-      <label xml:lang="en" text="Creative Commons 4.0 International Lizences" />
+      <label xml:lang="en" text="Creative Commons 4.0 International Licenses" />
       <label xml:lang="de" text="Creative Commons 4.0 International Lizenzen" />
       <label xml:lang="x-group" text="true" />
       <url xlink:href="https://creativecommons.org/licenses/" xlink:type="locator" />
