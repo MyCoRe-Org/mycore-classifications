@@ -13,11 +13,26 @@
       <label xml:lang="en" text="Open Access related to alliance or national license" />
       <label xml:lang="de" text="Open-Access im Zuge einer Allianz- bzw. Nationallizenz" />
     </category>
-    <category ID="cc_pdm_1.0">
-      <label xml:lang="de" text="Public Domain Mark 1.0" description="Kein Urheberrechtsschutz" />
-      <label xml:lang="en" text="Public Fomain Mark 1.0" description="No Copyright"/>
-      <label xml:lang="x-dnb-cc" text="cc:cc-pdm-1.0"/>
-      <url xlink:href="https://creativecommons.org/publicdomain/mark/1.0/" xlink:type="locator" />
+    <category ID="publicdomain">
+      <label xml:lang="en" text="Public Domain Licenses" />
+      <label xml:lang="de" text="Public Domain Lizenzen" />
+      <label xml:lang="x-group" text="true" />
+      <category ID="cc_pdm_1.0">
+        <label xml:lang="de" text="Public Domain Mark 1.0" description="Kein Urheberrechtsschutz" />
+        <label xml:lang="en" text="Public Fomain Mark 1.0" description="No Copyright"/>
+        <label xml:lang="x-dnb-cc" text="cc:cc-pdm-1.0"/>
+        <url xlink:href="https://creativecommons.org/publicdomain/mark/1.0/" xlink:type="locator" />
+      </category>
+      <category ID="cc_0_1.0">
+        <label xml:lang="de" text="CC0 1.0" description="Public Domain Dedication" />
+        <label xml:lang="en" text="CC0 1.0" description="Public Domain Dedication"/>
+        <label xml:lang="x-dnb-cc" text="cc:cc-0-1.0"/>
+        <url xlink:href="http://creativecommons.org/publicdomain/zero/1.0/" xlink:type="locator" />
+      </category>
+      <category ID="odc_pddl">
+        <label xml:lang="en" text="PDDL - Public Domain Dedication and License" />
+        <label xml:lang="de" text="PDDL - Public Domain Dedication and License" />
+      </category>
     </category>
     <category ID="cc_3.0">
       <label xml:lang="en" text="Creative Commons 3.0 International Lizences" />
@@ -102,10 +117,6 @@
         <label xml:lang="x-dnb-cc" text="cc:cc-by-nc-nd-4.0"/>
         <url xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xlink:type="locator" />
       </category>
-    </category>
-    <category ID="odc_pddl">
-      <label xml:lang="en" text="PDDL - Public Domain Dedication and License" />
-      <label xml:lang="de" text="PDDL - Public Domain Dedication and License" />
     </category>
     <category ID="odc_by">
       <label xml:lang="de" text="ODC-By - Attribution License" />
