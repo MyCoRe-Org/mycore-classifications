@@ -13,8 +13,29 @@
       <label xml:lang="en" text="Open Access related to alliance or national license" />
       <label xml:lang="de" text="Open-Access im Zuge einer Allianz- bzw. Nationallizenz" />
     </category>
+    <category ID="publicdomain">
+      <label xml:lang="en" text="Public Domain Licenses" />
+      <label xml:lang="de" text="Public Domain Lizenzen" />
+      <label xml:lang="x-group" text="true" />
+      <category ID="cc_mark_1.0">
+        <label xml:lang="de" text="Public Domain Mark 1.0" description="Kein Urheberrechtsschutz" />
+        <label xml:lang="en" text="Public Fomain Mark 1.0" description="No Copyright"/>
+        <label xml:lang="x-dnb-cc" text="cc:cc-pdm-1.0"/>
+        <url xlink:href="https://creativecommons.org/publicdomain/mark/1.0/" xlink:type="locator" />
+      </category>
+      <category ID="cc_zero_1.0">
+        <label xml:lang="de" text="CC0 1.0" description="Public Domain Dedication" />
+        <label xml:lang="en" text="CC0 1.0" description="Public Domain Dedication"/>
+        <label xml:lang="x-dnb-cc" text="cc:cc-0-1.0"/>
+        <url xlink:href="https://creativecommons.org/publicdomain/zero/1.0/" xlink:type="locator" />
+      </category>
+      <category ID="odc_pddl">
+        <label xml:lang="en" text="PDDL - Public Domain Dedication and License" />
+        <label xml:lang="de" text="PDDL - Public Domain Dedication and License" />
+      </category>
+    </category>
     <category ID="cc_3.0">
-      <label xml:lang="en" text="Creative Commons 3.0 International Lizences" />
+      <label xml:lang="en" text="Creative Commons 3.0 International Licenses" />
       <label xml:lang="de" text="Creative Commons 3.0 International Lizenzen" />
       <label xml:lang="x-group" text="true" />
       <url xlink:href="https://creativecommons.org/licenses/" xlink:type="locator" />
@@ -56,7 +77,7 @@
       </category>
     </category>
     <category ID="cc_4.0">
-      <label xml:lang="en" text="Creative Commons 4.0 International Lizences" />
+      <label xml:lang="en" text="Creative Commons 4.0 International Licenses" />
       <label xml:lang="de" text="Creative Commons 4.0 International Lizenzen" />
       <label xml:lang="x-group" text="true" />
       <url xlink:href="https://creativecommons.org/licenses/" xlink:type="locator" />
@@ -97,10 +118,6 @@
         <url xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xlink:type="locator" />
       </category>
     </category>
-    <category ID="odc_pddl">
-      <label xml:lang="en" text="PDDL - Public Domain Dedication and License" />
-      <label xml:lang="de" text="PDDL - Public Domain Dedication and License" />
-    </category>
     <category ID="odc_by">
       <label xml:lang="de" text="ODC-By - Attribution License" />
       <label xml:lang="en" text="ODC-By - Attribution License" />
@@ -112,21 +129,21 @@
     <category ID="ogl">
       <label xml:lang="en" text="Open Government Licence" />
       <label xml:lang="de" text="Open Government Licence" />
-      <url xlink:href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/open-government-licence/" xlink:type="locator" />
+      <url xlink:href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/open-government-licence/" xlink:type="locator" />
       <category ID="ogl_3.0">
         <label xml:lang="de" text="OGL 3.0" />
         <label xml:lang="en" text="OGL 3.0" />
-        <url xlink:href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" xlink:type="locator" />
+        <url xlink:href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" xlink:type="locator" />
       </category>
       <category ID="ogl_2.0">
         <label xml:lang="de" text="OGL 2.0" />
         <label xml:lang="en" text="OGL 2.0" />
-        <url xlink:href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/" xlink:type="locator" />
+        <url xlink:href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/" xlink:type="locator" />
       </category>
       <category ID="ogl_1.0">
         <label xml:lang="de" text="OGL 1.0" />
         <label xml:lang="en" text="OGL 1.0" />
-        <url xlink:href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/" xlink:type="locator" />
+        <url xlink:href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/" xlink:type="locator" />
       </category>
     </category>
   </categories>
