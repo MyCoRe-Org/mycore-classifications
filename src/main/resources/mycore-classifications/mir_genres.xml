@@ -145,6 +145,12 @@
         <label xml:lang="en" text="Lexicon" />
       </category>
     </category>
+    <category ID="grouping">
+      <label xml:lang="x-hosts" text="standalone" />
+      <label xml:lang="de" text="Gruppierung" />
+      <label xml:lang="en" text="Grouping" />
+      <label xml:lang="it" text="Raggruppamento" />
+    </category>
     <category ID="report">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="de" text="Report" />
