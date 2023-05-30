@@ -22,7 +22,7 @@
     <category ID="WorkingPaper">
       <label xml:lang="de" text="Arbeitspapier"
              description="Ein Arbeitspapier ist eine wissenschaftliche Veröffentlichung, die entweder von der Institution herausgegeben wird, in der die Forschung stattfindet, oder im Auftrag einer Institution angefertigt wurde. Es hat (noch) kein Begutachtungsverfahren durchlaufen."/>
-      <label xml:lang="en" text="Working paper paper"
+      <label xml:lang="en" text="Working paper"
              description="A working paper is a scientific paper, either published by the institution, where the research was done or on behalf of an institution. A working paper has not (yet) been reviewed."/>
       <label xml:lang="x-source" text="KDSF (Pu37)"/>
     </category>
