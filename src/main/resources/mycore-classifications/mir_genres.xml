@@ -220,6 +220,12 @@
       <label xml:lang="de" text="Zeitschrift" />
       <label xml:lang="it" text="Rivista" />
       <label xml:lang="x-mapping" text="marcgt:journal diniPublType:Periodical diniPublType2022:Periodical schemaOrg:Periodical" />
+      <category ID="issue">
+        <label xml:lang="de" text="Zeitschriftenheft" />
+        <label xml:lang="en" text="Journal Issue" />
+        <label xml:lang="x-hosts" text="standalone journal series" />
+        <label xml:lang="x-mapping" text="marcgt:issue diniPublType:PeriodicalPart diniPublType2022:PeriodicalPart schemaOrg:Periodical" />
+      </category>
     </category>
     <category ID="newspaper">
       <label xml:lang="x-hosts" text="standalone" />
