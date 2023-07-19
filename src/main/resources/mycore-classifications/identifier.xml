@@ -42,8 +42,8 @@
       <label xml:lang="de" text="Project ID" />
     </category>
     <category ID="patent">
-      <label xml:lang="en" text="Patentnummer" />
-      <label xml:lang="de" text="Patent number" />
+      <label xml:lang="en" text="Patent number" />
+      <label xml:lang="de" text="Patentnummer" />
     </category>
     <category ID="ppn">
       <label xml:lang="en" text="PPN" />
