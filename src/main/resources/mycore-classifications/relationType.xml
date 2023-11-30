@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass ID="relationType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
+
+  <label xml:lang="en" text="Relationstyp" description="Relationstypen nach DataCite Kernel 4.4"/>
+  <label xml:lang="de" text="Relation Type" description="DataCite relation types as of DataCite Kernel 4.4"/>
+
+  <categories>
+    <category ID="IsCitedBy">
+      <label xml:lang="de" text="IsCitedBy" description="Zeigt an, dass B A in ein Zitat einbezieht"/>
+      <label xml:lang="en" text="IsCitedBy" description="Indicates that B includes A in a citation"/>
+    </category>
+    <category ID="Cites">
+      <label xml:lang="de" text="Cites" description="Zeigt an, dass A B in ein Zitat einbezieht"/>
+      <label xml:lang="en" text="Cites" description="Indicates that A includes B in a citation"/>
+    </category>
+    <category ID="IsSupplementTo">
+      <label xml:lang="de" text="IsSupplementTo" description="Zeigt an, dass A eine Ergänzung zu B ist"/>
+      <label xml:lang="en" text="IsSupplementTo" description="Indicates that A is a supplement to B"/>
+    </category>
+    <category ID="IsSupplementedBy">
+      <label xml:lang="de" text="IsSupplementedBy" description=""/>
+      <label xml:lang="en" text="IsSupplementedBy" description="Indicates that B is a supplement to A"/>
+    </category>
+    <category ID="IsContinuedBy">
+      <label xml:lang="de" text="IsContinuedBy" description="Zeigt an, dass B eine Ergänzung zu A ist"/>
+      <label xml:lang="en" text="IsContinuedBy" description="Indicates A is continued by the work B"/>
+    </category>
+    <category ID="Continues">
+      <label xml:lang="de" text="Continues" description="Zeigt an, dass A eine Fortsetzung der Arbeit B ist"/>
+      <label xml:lang="en" text="Continues" description="Indicates A is a continuation of the work B"/>
+    </category>
+    <category ID="Describes">
+      <label xml:lang="de" text="Describes" description="Zeigt an, dass A B beschreibt"/>
+      <label xml:lang="en" text="Describes" description="Indicates A describes B"/>
+    </category>
+    <category ID="IsDescribedBy">
+      <label xml:lang="de" text="IsDescribedBy" description="Zeigt an, dass A durch B beschrieben wird"/>
+      <label xml:lang="en" text="IsDescribedBy" description="Indicates A is described by B"/>
+    </category>
+    <category ID="HasMetadata">
+      <label xml:lang="de" text="HasMetadata" description="Zeigt an, dass Ressource A über zusätzliche Metadaten B verfügt"/>
+      <label xml:lang="en" text="HasMetadata" description="Indicates resource A has additional metadata B"/>
+    </category>
+    <category ID="IsMetadataFor">
+      <label xml:lang="de" text="IsMetadataFor" description="gibt zusätzliche Metadaten A für eine Ressource B an"/>
+      <label xml:lang="en" text="IsMetadataFor" description="Indicates additional metadata A for a resource B"/>
+    </category>
+    <category ID="HasVersion">
+      <label xml:lang="de" text="HasVersion" description=""/>
+      <label xml:lang="en" text="HasVersion" description="Indicates A has a version (B)"/>
+    </category>
+    <category ID="IsVersionOf">
+      <label xml:lang="de" text="IsVersionOf" description="Zeigt an, dass A eine Version von B ist"/>
+      <label xml:lang="en" text="IsVersionOf" description="Indicates A is a version of B"/>
+    </category>
+    <category ID="IsNewVersionOf">
+      <label xml:lang="de" text="IsNewVersionOf" description="Zeigt an, dass es sich bei A um eine neue Ausgabe von B handelt, wobei die neue Ausgabe geändert oder aktualisiert wurde"/>
+      <label xml:lang="en" text="IsNewVersionOf" description="Indicates A is a new edition of B, where the new edition has been modified or updated"/>
+    </category>
+    <category ID="IsPreviousVersionOf">
+      <label xml:lang="de" text="IsPreviousVersionOf" description="Zeigt an, dass es sich bei A um eine frühere Ausgabe von B handelt"/>
+      <label xml:lang="en" text="IsPreviousVersionOf" description="Indicates A is a previous edition of B"/>
+    </category>
+    <category ID="IsPartOf">
+      <label xml:lang="de" text="IsPartOf" description="Zeigt an, dass A ein Teil von B ist; kann für Elemente einer Reihe verwendet werden"/>
+      <label xml:lang="en" text="IsPartOf" description="Indicates A is a portion of B; may be used for elements of a series"/>
+    </category>
+    <category ID="HasPart">
+      <label xml:lang="de" text="HasPart" description="Zeigt an, dass A den Teil B enthält"/>
+      <label xml:lang="en" text="HasPart" description="Indicates A includes the part B"/>
+    </category>
+    <category ID="IsPublishedIn">
+      <label xml:lang="de" text="IsPublishedIn" description="Zeigt an, dass A in B veröffentlicht wird, aber unabhängig von anderen in B veröffentlichten Dingen ist"/>
+      <label xml:lang="en" text="IsPublishedIn" description="Indicates A is published inside B, but is independent of other things published inside of B"/>
+    </category>
+    <category ID="IsReferencedBy">
+      <label xml:lang="de" text="IsReferencedBy" description="Zeigt an, dass A von B als Informationsquelle verwendet wird"/>
+      <label xml:lang="en" text="IsReferencedBy" description="Indicates A is used as a source of information by B"/>
+    </category>
+    <category ID="References">
+      <label xml:lang="de" text="References" description="Zeigt an, dass B als Informationsquelle für A verwendet wird"/>
+      <label xml:lang="en" text="References" description="Indicates B is used as a source of information for A"/>
+    </category>
+    <category ID="IsDocumentedBy">
+      <label xml:lang="de" text="IsDocumentedBy" description="Zeigt an, dass B eine Dokumentation über/erläutert A ist; z.B. verweist auf Softwaredokumentation"/>
+      <label xml:lang="en" text="IsDocumentedBy" description="Indicates B is documentation about/explaining A; e.g. points to software documentation"/>
+    </category>
+    <category ID="Documents">
+      <label xml:lang="de" text="Documents" description="Zeigt an, dass A eine Dokumentation über B ist; z.B. verweist auf Softwaredokumentation"/>
+      <label xml:lang="en" text="Documents" description="Indicates A is documentation about B; e.g. points to software documentation"/>
+    </category>
+    <category ID="IsCompiledBy">
+      <label xml:lang="de" text="IsCompiledBy" description="Zeigt an, dass B zum Kompilieren oder Erstellen von A verwendet wird"/>
+      <label xml:lang="en" text="IsCompiledBy" description="Indicates B is used to compile or create A"/>
+    </category>
+    <category ID="Compiles">
+      <label xml:lang="de" text="Compiles" description="gibt an, dass B das Ergebnis eines Kompilierungs- oder Erstellungsereignisses mit A ist"/>
+      <label xml:lang="en" text="Compiles" description="Indicates B is the result of a compile or creation event using A"/>
+    </category>
+    <category ID="IsVariantFormOf">
+      <label xml:lang="de" text="IsVariantFormOf" description=""/>
+      <label xml:lang="en" text="IsVariantFormOf" description="Indicates A is a variant or different form of B"/>
+    </category>
+    <category ID="IsOriginalFormOf">
+      <label xml:lang="de" text="IsOriginalFormOf" description="Zeigt an, dass A die ursprüngliche Form von B ist"/>
+      <label xml:lang="en" text="IsOriginalFormOf" description="Indicates A is the original form of B"/>
+    </category>
+    <category ID="IsIdenticalTo">
+      <label xml:lang="de" text="IsIdenticalTo" description="Zeigt an, dass A mit B identisch ist, und wird verwendet, wenn zwei separate Instanzen derselben Ressource registriert werden müssen"/>
+      <label xml:lang="en" text="IsIdenticalTo" description="Indicates that A is identical to B, for use when there is a need to register two separate instances of the same resource"/>
+    </category>
+    <category ID="IsReviewedBy">
+      <label xml:lang="de" text="IsReviewedBy" description="Zeigt an, dass A von B überprüft wird"/>
+      <label xml:lang="en" text="IsReviewedBy" description="Indicates that A is reviewed by B"/>
+    </category>
+    <category ID="Reviews">
+      <label xml:lang="de" text="Reviews" description="Zeigt an, dass A eine Rezension von B ist"/>
+      <label xml:lang="en" text="Reviews" description="Indicates that A is a review of B"/>
+    </category>
+    <category ID="IsDerivedFrom">
+      <label xml:lang="de" text="IsDerivedFrom" description=""/>
+      <label xml:lang="en" text="IsDerivedFrom" description="Indicates B is a source upon which A is based"/>
+    </category>
+    <category ID="IsSourceOf">
+      <label xml:lang="de" text="IsSourceOf" description="Zeigt an, dass A eine Quelle ist, auf der B basiert"/>
+      <label xml:lang="en" text="IsSourceOf" description="Indicates A is a source upon which B is based"/>
+    </category>
+    <category ID="IsRequiredBy">
+      <label xml:lang="de" text="IsRequiredBy" description="Zeigt an, dass A von B benötigt wird"/>
+      <label xml:lang="en" text="IsRequiredBy" description="Indicates A is required by B"/>
+    </category>
+    <category ID="Requires">
+      <label xml:lang="de" text="Requires" description="Zeigt an, dass A B erfordert"/>
+      <label xml:lang="en" text="Requires" description="Indicates A requires B"/>
+    </category>
+    <category ID="Obsoletes">
+      <label xml:lang="de" text="Obsoletes" description="Zeigt an, dass A B ersetzt"/>
+      <label xml:lang="en" text="Obsoletes" description="Indicates A replaces B"/>
+    </category>
+    <category ID="IsObsoletedBy">
+      <label xml:lang="de" text="IsObsoletedBy" description="Zeigt an, dass A durch B ersetzt wird"/>
+      <label xml:lang="en" text="IsObsoletedBy" description="Indicates A is replaced by B"/>
+    </category>
+  </categories>
+</mycoreclass>
