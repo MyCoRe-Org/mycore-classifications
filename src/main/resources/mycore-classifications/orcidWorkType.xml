@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
-<mycoreclass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="workType"
-             xsi:noNamespaceSchemaLocation="MCRClassification.xsd"><!--
-        
+<mycoreclass ID="orcidWorkType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
+  <!--
         https://info.orcid.org/ufaqs/what-work-types-does-orcid-support
 
         ORCID allows for the addition of several types of works. Below is a list of the work types that are currently
         supported, which is largely consistent with the CASRAI Output Standard.
-      
-      -->
+   -->
+
   <label xml:lang="de" text="ORCID Werktyp"/>
   <label xml:lang="en" text="ORCID work type"/>
   <categories>
