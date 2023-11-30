@@ -13,42 +13,42 @@
     <category ID="book">
       <label xml:lang="de" text="book"/>
       <label xml:lang="en" text="book"
-             description="Books written by a single author or collaboratively based on research or scholarly findings generally derived&#10;      from peer reviewed funding.&#10;    "/>
+             description="Books written by a single author or collaboratively based on research or scholarly findings generally derived from peer reviewed funding."/>
     </category>
     <category ID="book-chapter">
       <label xml:lang="de" text="book-chapter"/>
       <label xml:lang="en" text="book-chapter"
-             description="Texts written by a single author or collaboratively based on research or scholarly findings and expertise in a&#10;      field.&#10;    "/>
+             description="Texts written by a single author or collaboratively based on research or scholarly findings and expertise in a field."/>
     </category>
     <category ID="book-review">
       <label xml:lang="de" text="book-review"/>
       <label xml:lang="en" text="book-review"
-             description="Critical review of works of fiction or non-fiction highlighting the contributions to an art, field or&#10;      discipline.&#10;    "/>
+             description="Critical review of works of fiction or non-fiction highlighting the contributions to an art, field or discipline."/>
     </category>
     <category ID="dictionary-entry">
       <label xml:lang="de" text="dictionary-entry"/>
       <label xml:lang="en" text="dictionary-entry"
-             description="Entries of new words, new meanings of existing words, changes in spelling and hyphenation over a longer period&#10;      of time, and grammatical changes.&#10;    "/>
+             description="Entries of new words, new meanings of existing words, changes in spelling and hyphenation over a longer period of time, and grammatical changes."/>
     </category>
     <category ID="dissertation">
       <label xml:lang="de" text="dissertation"/>
       <label xml:lang="en" text="dissertation"
-             description="Treatise advancing an original point of view resulting from research: a requirement for a doctoral degree. This&#10;      is only available with API v2.x&#10;    "/>
+             description="Treatise advancing an original point of view resulting from research: a requirement for a doctoral degree. This is only available with API v2.x"/>
     </category>
     <category ID="dissertation-thesis">
       <label xml:lang="de" text="dissertation-thesis"/>
       <label xml:lang="en" text="dissertation-thesis"
-             description="A paper that is typically based on original research and that gives evidence of the candidate&#x201A;s mastery both of&#10;      their own subject and of scholarly method. This is only available with API v3.0+&#10;    "/>
+             description="A paper that is typically based on original research and that gives evidence of the candidate&#x201A;s mastery both of their own subject and of scholarly method. This is only available with API v3.0+"/>
     </category>
     <category ID="edited-book">
       <label xml:lang="de" text="edited-book"/>
       <label xml:lang="en" text="edited-book"
-             description="Books edited by a single author or collaboratively for the dissemination of research or scholarly findings that&#10;      generally result from peer reviewed funding.&#10;    "/>
+             description="Books edited by a single author or collaboratively for the dissemination of research or scholarly findings that generally result from peer reviewed funding."/>
     </category>
     <category ID="encyclopaedia-entry">
       <label xml:lang="de" text="encyclopaedia-entry"/>
       <label xml:lang="en" text="encyclopaedia-entry"
-             description="Authored entries in a reference work or a compendium focusing on a particular domain or on all branches of&#10;      knowledge.&#10;    "/>
+             description="Authored entries in a reference work or a compendium focusing on a particular domain or on all branches of knowledge."/>
     </category>
     <category ID="journal-article">
       <label xml:lang="de" text="journal-article"/>
@@ -72,7 +72,7 @@
     <category ID="newsletter-article">
       <label xml:lang="de" text="newsletter-article"/>
       <label xml:lang="en" text="newsletter-article"
-             description="Articles in publications aimed at researchers, decision-makers, professionals and the public that report on a&#10;      research project or on the activities of a research chair or a research center.&#10;    "/>
+             description="Articles in publications aimed at researchers, decision-makers, professionals and the public that report on a research project or on the activities of a research chair or a research center."/>
     </category>
     <category ID="newspaper-article">
       <label xml:lang="de" text="newspaper-article"/>
@@ -87,7 +87,7 @@
     <category ID="preprint">
       <label xml:lang="de" text="preprint"/>
       <label xml:lang="en" text="preprint"
-             description="Version of a paper made publicly available before formal peer review and publication. This is only&#10;      available&#10;      with API v3.0+ &#10;    "/>
+             description="Version of a paper made publicly available before formal peer review and publication. This is only available with API v3.0+ "/>
     </category>
     <category ID="report">
       <label xml:lang="de" text="report"/>
@@ -112,12 +112,12 @@
     <category ID="test">
       <label xml:lang="de" text="test"/>
       <label xml:lang="en" text="test"
-             description="Assessments that include tests designed for general university selection, selection into specific courses or&#10;      other&#10;      evaluation purposes.&#10;    "/>
+             description="Assessments that include tests designed for general university selection, selection into specific courses or other evaluation purposes."/>
     </category>
     <category ID="translation">
       <label xml:lang="de" text="translation"/>
       <label xml:lang="en" text="translation"
-             description="Translations of books and articles that identify modifications to the original edition, such as a new or revised&#10;      preface.&#10;    "/>
+             description="Translations of books and articles that identify modifications to the original edition, such as a new or revised preface."/>
     </category>
     <category ID="website">
       <label xml:lang="de" text="website"/>
