@@ -191,6 +191,7 @@
            description="Speziell gedacht für Material, das nicht anderweitig zugeordnet werden kann." />
       <label xml:lang="en" text="other resources, not textual"
            description="Especially meant for non-publication data, that cannot be classified by other terms." />
+      <label xml:lang="x-default" text="true"/>
     </category>
     <category ID="Text">
       <label xml:lang="de" text="Text"
