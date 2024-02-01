@@ -354,6 +354,7 @@
       <label xml:lang="en" text="Other resources, non-textual"
              description="Specially designed for material that cannot be placed elsewhere."/>
       <label xml:lang="x-source" text="DINI"/>
+      <label xml:lang="x-default" text="true"/>
     </category>
   </categories>
 </mycoreclass>
