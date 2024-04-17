@@ -28,18 +28,21 @@
            description="Ein Artikel oder ein redaktioneller Teil veröffentlicht in einer wissenschaftlichen Zeitschrift." />
       <label xml:lang="en" text="article"
            description="Article or an editorial published in a journal." />
+      <label xml:lang="x-xmdp-type" text="periodical-part"/>
     </category>
     <category ID="contributionToPeriodical">
       <label xml:lang="de" text="Beitrag zu einem Periodikum"
            description="Beitrag in einer Zeitung, einem Wochenmagazin oder einem anderen nicht-wissenschaftlichen Periodikum." />
       <label xml:lang="en" text="contribution to periodical"
            description="Contribution to a newspaper, weekly magazine or another non-academic periodical." />
+      <label xml:lang="x-xmdp-type" text="periodical-part"/>
     </category>
     <category ID="PeriodicalPart">
       <label xml:lang="de" text="Teil eines Periodikums"
            description="Teil einer Zeitschrift oder eines Periodikums, enthält im Allgemeinen mehrere Beiträge (Artikel)." />
       <label xml:lang="en" text="periodical part"
            description="Part of a journal or periodical, generally contains multiple contributions (articles)." />
+      <label xml:lang="x-xmdp-type" text="periodical-part"/>
     </category>
     <category ID="Periodical">
       <label xml:lang="de" text="Periodikum"
@@ -76,18 +79,24 @@
            description="Niedrigste Stufe einer Abschlussarbeit (normalerweise nach drei Jahren Studium)." />
       <label xml:lang="en" text="bachelor thesis"
            description="Lowest level of a thesis (normally after three years of study)." />
+      <label xml:lang="x-xmdp-type" text="thesis"/>
+      <label xml:lang="x-xmdp-fallback" text="book"/>
     </category>
     <category ID="masterThesis">
       <label xml:lang="de" text="Abschlussarbeit (Master)"
            description="Mittlere Stufe einer Abschlussarbeit (normalerweise nach vier oder fünf Jahren Studium). Dieser Term referiert auch Abschlussarbeiten für akademische Grade aus der Zeit vor Beginn des Bologna-Prozesses auf der Stufe eines Masters." />
       <label xml:lang="en" text="master thesis"
            description="Intermediate level of a thesis (normally after four or five years of study). This also refers to theses of the pre-Bologna period for degrees that are at the same level as what now is known as a master degree." />
+      <label xml:lang="x-xmdp-type" text="thesis"/>
+      <label xml:lang="x-xmdp-fallback" text="book"/>
     </category>
     <category ID="doctoralThesis">
       <label xml:lang="de" text="Dissertation oder Habilitation"
            description="Höchste Stufe einer Abschlussarbeit normalerweise nach mehr als vier oder fünf Jahren Studium. Auch für etwas gleichwertiges oder höheres als eine Dissertation, dass aber nicht der Bologna-Konvention folgt. Enthält auch die Habilitationsschrift." />
       <label xml:lang="en" text="doctoral thesis"
            description="Highest level of a thesis normally after more than four or five years of study. Also everything equal and higher then a Doctoral thesis, that does not follow the “Bologna Convention”, will be put in the category." />
+      <label xml:lang="x-xmdp-type" text="thesis"/>
+      <label xml:lang="x-xmdp-fallback" text="book"/>
     </category>
     <category ID="conferenceObject">
       <label xml:lang="de" text="Konferenzveröffentlichung"
