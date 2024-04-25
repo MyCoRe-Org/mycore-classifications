@@ -56,6 +56,7 @@
       <label xml:lang="de" text="Zeitschriftenartikel"/>
       <label xml:lang="en" text="Journal article"
              description="Articles in peer-reviewed publications that disseminate the results of original research and scholarship."/>
+      <label xml:lang="x-mapping-xpath" text="mods:genre/text()='article' and mods:relatedItem[@type='host']/mods:genre/text()='journal'" />
     </category>
     <category ID="journal-issue">
       <label xml:lang="de" text="Zeitschriftenausgabe"/>
