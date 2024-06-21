@@ -81,6 +81,7 @@
       <label xml:lang="de" text="Zeitungsartikel"/>
       <label xml:lang="en" text="Newspaper article"
              description="Articles in a daily, weekly or monthly publication reporting on news and social issues aimed at the public."/>
+      <label xml:lang="x-mapping-xpath" text="mods:genre[substring-after(@valueURI,'#')='article'] and mods:relatedItem[@type='host']/mods:genre[substring-after(@valueURI,'#')='newspaper']" />
     </category>
     <category ID="online-resource">
       <label xml:lang="de" text="Online Ressource"/>
