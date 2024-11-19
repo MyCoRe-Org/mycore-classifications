@@ -82,7 +82,7 @@
       <label xml:lang="en" text="300 Social sciences" />
     </category>
     <category ID="310">
-      <label xml:lang="de" text="310 Statistik" />
+      <label xml:lang="de" text="310 Allgemeine Statistik" />
       <label xml:lang="en" text="310 General statistics" />
     </category>
     <category ID="320">
@@ -270,7 +270,7 @@
       <label xml:lang="en" text="730 Plastic arts Sculpture" />
     </category>
     <category ID="740">
-      <label xml:lang="de" text="740 Zeichnung, Kunsthandwerk" />
+      <label xml:lang="de" text="740 Grafik &amp; angewandte Kunst" />
       <label xml:lang="en" text="740 Drawing &amp; decorative arts" />
     </category>
     <category ID="741.5">
@@ -282,12 +282,12 @@
       <label xml:lang="en" text="750 Painting &amp; paintings" />
     </category>
     <category ID="760">
-      <label xml:lang="de" text="760 Grafische Verfahren, Drucke" />
+      <label xml:lang="de" text="760 Druckgrafik &amp; Drucke" />
       <label xml:lang="en" text="760 Graphic arts Printmaking &amp; prints" />
     </category>
     <category ID="770">
-      <label xml:lang="de" text="770 Fotografie, Computerkunst" />
-      <label xml:lang="en" text="770 Photography &amp; photographs" />
+      <label xml:lang="de" text="770 Fotografie&amp; Video&amp; Computerkunst" />
+      <label xml:lang="en" text="770 Photography&amp; video&amp; digital art" />
     </category>
     <category ID="780">
       <label xml:lang="de" text="780 Musik" />
