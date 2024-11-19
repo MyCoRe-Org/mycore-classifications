@@ -200,5 +200,10 @@
       <label xml:lang="de" text="interner Kommentar" />
       <label xml:lang="x-access" text="editor admin" />
     </category>
+    <category ID="secondary_publication">
+      <label xml:lang="en" text="Secondary publication" />
+      <label xml:lang="x-access" text="guest" />
+      <label xml:lang="de" text="Zweitveröffentlichung" />
+    </category>
   </categories>
 </mycoreclass>
