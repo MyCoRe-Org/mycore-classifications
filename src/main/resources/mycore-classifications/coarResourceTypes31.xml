@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="coarResourceTypes31">
+  <label xml:lang="en" text="COAR Resource Types 3.1"/>
+  <categories>
+    <category ID="cartographic_material">
+      <label xml:lang="de" text="kartographisches Material"/>
+      <label xml:lang="en" text="cartographic material"/>
+      <category ID="map">
+        <label xml:lang="de" text="Karte"/>
+        <label xml:lang="en" text="map"/>
+      </category>
+    </category>
+    <category ID="dataset">
+      <label xml:lang="de" text="Datensatz"/>
+      <label xml:lang="en" text="dataset"/>
+      <category ID="aggregated_data">
+        <label xml:lang="de" text="aggregierte Daten"/>
+        <label xml:lang="en" text="aggregated data"/>
+      </category>
+      <category ID="clinical_trial_data">
+        <label xml:lang="de" text="klinische Daten"/>
+        <label xml:lang="en" text="clinical trial data"/>
+      </category>
+      <category ID="compiled_data">
+        <label xml:lang="de" text="kompilierte Daten"/>
+        <label xml:lang="en" text="compiled data"/>
+      </category>
+      <category ID="encoded_data">
+        <label xml:lang="de" text="kodierte Daten"/>
+        <label xml:lang="en" text="encoded data"/>
+      </category>
+      <category ID="experimental_data">
+        <label xml:lang="de" text="experimentelle Daten"/>
+        <label xml:lang="en" text="experimental data"/>
+      </category>
+      <category ID="genomic_data">
+        <label xml:lang="de" text="Genomdaten"/>
+        <label xml:lang="en" text="genomic data"/>
+      </category>
+      <category ID="geospatial_data">
+        <label xml:lang="de" text="Geodaten"/>
+        <label xml:lang="en" text="geospatial data"/>
+      </category>
+      <category ID="laboratory_notebook">
+        <label xml:lang="de" text="Laborjournal"/>
+        <label xml:lang="en" text="laboratory notebook"/>
+      </category>
+      <category ID="measurement_and_test_data">
+        <label xml:lang="de" text="Mess- und Testdaten"/>
+        <label xml:lang="en" text="measurement and test data"/>
+      </category>
+      <category ID="observational_data">
+        <label xml:lang="de" text="Beobachtungsdaten"/>
+        <label xml:lang="en" text="observational data"/>
+      </category>
+      <category ID="recorded_data">
+        <label xml:lang="de" text="aufgezeichnete Daten"/>
+        <label xml:lang="en" text="recorded data"/>
+      </category>
+      <category ID="simulation_data">
+        <label xml:lang="de" text="Simulationsdaten"/>
+        <label xml:lang="en" text="simulation data"/>
+      </category>
+      <category ID="survey_data">
+        <label xml:lang="de" text="Umfragedaten"/>
+        <label xml:lang="en" text="survey data"/>
+      </category>
+    </category>
+    <category ID="design">
+      <label xml:lang="en" text="design"/>
+      <category ID="industrial_design">
+        <label xml:lang="en" text="industrial design"/>
+      </category>
+      <category ID="layout_design">
+        <label xml:lang="en" text="layout design"/>
+      </category>
+    </category>
+    <category ID="image">
+      <label xml:lang="de" text="Bild"/>
+      <label xml:lang="en" text="image"/>
+      <category ID="moving_image">
+        <label xml:lang="de" text="Bewegte Bilder"/>
+        <label xml:lang="en" text="moving image"/>
+        <category ID="video">
+          <label xml:lang="de" text="Video"/>
+          <label xml:lang="en" text="video"/>
+        </category>
+      </category>
+      <category ID="still_image">
+        <label xml:lang="de" text="Einzelbild"/>
+        <label xml:lang="en" text="still image"/>
+      </category>
+    </category>
+    <category ID="interactive_resource">
+      <label xml:lang="de" text="interaktive Ressource"/>
+      <label xml:lang="en" text="interactive resource"/>
+      <category ID="website">
+        <label xml:lang="de" text="Webseite"/>
+        <label xml:lang="en" text="website"/>
+      </category>
+    </category>
+    <category ID="learning_object">
+      <label xml:lang="de" text="Lernobjekt"/>
+      <label xml:lang="en" text="learning object"/>
+    </category>
+    <category ID="other">
+      <label xml:lang="de" text="sonstige"/>
+      <label xml:lang="en" text="other"/>
+    </category>
+    <category ID="patent">
+      <label xml:lang="de" text="Patent"/>
+      <label xml:lang="en" text="patent"/>
+      <category ID="pct_application">
+        <label xml:lang="de" text="internationale Patentanmeldung"/>
+        <label xml:lang="en" text="PCT application"/>
+      </category>
+      <category ID="design_patent">
+        <label xml:lang="de" text="Eingetragenes Design"/>
+        <label xml:lang="en" text="design patent"/>
+      </category>
+      <category ID="plant_patent">
+        <label xml:lang="de" text="Pflanzenpatent"/>
+        <label xml:lang="en" text="plant patent"/>
+      </category>
+      <category ID="plant_variety_protection">
+        <label xml:lang="de" text="Sortenschutz"/>
+        <label xml:lang="en" text="plant variety protection"/>
+      </category>
+      <category ID="software_patent">
+        <label xml:lang="de" text="Softwarepatent"/>
+        <label xml:lang="en" text="software patent"/>
+      </category>
+      <category ID="utility_model">
+        <label xml:lang="de" text="Gebrauchsmuster"/>
+        <label xml:lang="en" text="utility model "/>
+      </category>
+    </category>
+    <category ID="software">
+      <label xml:lang="de" text="Software"/>
+      <label xml:lang="en" text="software"/>
+      <category ID="research_software">
+        <label xml:lang="de" text="Forschungssoftware"/>
+        <label xml:lang="en" text="research software"/>
+      </category>
+      <category ID="source_code">
+        <label xml:lang="de" text="Quellcode"/>
+        <label xml:lang="en" text="source code"/>
+      </category>
+    </category>
+    <category ID="sound">
+      <label xml:lang="de" text="Ton"/>
+      <label xml:lang="en" text="sound"/>
+      <category ID="musical_composition">
+        <label xml:lang="de" text="musikalische Komposition"/>
+        <label xml:lang="en" text="musical composition"/>
+      </category>
+    </category>
+    <category ID="text">
+      <label xml:lang="de" text="Text"/>
+      <label xml:lang="en" text="text"/>
+      <category ID="annotation">
+        <label xml:lang="de" text="Urteilsanmerkung"/>
+        <label xml:lang="en" text="annotation"/>
+      </category>
+      <category ID="bibliography">
+        <label xml:lang="de" text="Bibliografie"/>
+        <label xml:lang="en" text="bibliography"/>
+      </category>
+      <category ID="blog_post">
+        <label xml:lang="de" text="Blogbeitrag"/>
+        <label xml:lang="en" text="blog post"/>
+      </category>
+      <category ID="book">
+        <label xml:lang="de" text="Buch"/>
+        <label xml:lang="en" text="book"/>
+        <category ID="book_part">
+          <label xml:lang="de" text="Teil eines Buches"/>
+          <label xml:lang="en" text="book part"/>
+        </category>
+      </category>
+      <category ID="conference_output">
+        <label xml:lang="de" text="Konferenzveröffentlichung"/>
+        <label xml:lang="en" text="conference output"/>
+        <category ID="conference_paper_not_in_proceedings">
+          <label xml:lang="de" text="Konferenzbeitrag nicht im Tagungsband"/>
+          <label xml:lang="en" text="conference paper not in proceedings"/>
+        </category>
+        <category ID="conference_poster_not_in_proceedings">
+          <label xml:lang="de" text="Konferenzposter nicht im Tagungsband"/>
+          <label xml:lang="en" text="conference poster not in proceedings"/>
+        </category>
+        <category ID="conference_presentation">
+          <label xml:lang="de" text="Konferenzpräsentation"/>
+          <label xml:lang="en" text="conference presentation"/>
+        </category>
+        <category ID="conference_proceedings">
+          <label xml:lang="de" text="Tagungsband"/>
+          <label xml:lang="en" text="conference proceedings"/>
+          <category ID="conference_paper">
+            <label xml:lang="de" text="Konferenzbeitrag"/>
+            <label xml:lang="en" text="conference paper"/>
+          </category>
+          <category ID="conference_poster">
+            <label xml:lang="de" text="Konferenzposter"/>
+            <label xml:lang="en" text="conference poster"/>
+          </category>
+        </category>
+      </category>
+      <category ID="journal">
+        <label xml:lang="de" text="Zeitschrift"/>
+        <label xml:lang="en" text="journal"/>
+        <category ID="editorial">
+          <label xml:lang="de" text="Vorwort"/>
+          <label xml:lang="en" text="editorial"/>
+        </category>
+        <category ID="journal_article">
+          <label xml:lang="de" text="Wissenschaftlicher Artikel"/>
+          <label xml:lang="en" text="journal article"/>
+          <category ID="corrigendum">
+            <label xml:lang="de" text="Korrigendum"/>
+            <label xml:lang="en" text="corrigendum"/>
+          </category>
+          <category ID="data_paper">
+            <label xml:lang="de" text="Data Paper"/>
+            <label xml:lang="en" text="data paper"/>
+          </category>
+          <category ID="research_article">
+            <label xml:lang="de" text="Forschungsartikel"/>
+            <label xml:lang="en" text="research article"/>
+          </category>
+          <category ID="review_article">
+            <label xml:lang="de" text="Übersichtsartikel"/>
+            <label xml:lang="en" text="review article"/>
+          </category>
+          <category ID="software_paper">
+            <label xml:lang="de" text="Softwareartikel"/>
+            <label xml:lang="en" text="software paper"/>
+          </category>
+        </category>
+        <category ID="letter_to_the_editor">
+          <label xml:lang="de" text="Leserbrief"/>
+          <label xml:lang="en" text="letter to the editor"/>
+        </category>
+      </category>
+      <category ID="lecture">
+        <label xml:lang="de" text="Vorlesung"/>
+        <label xml:lang="en" text="lecture"/>
+      </category>
+      <category ID="letter">
+        <label xml:lang="de" text="Brief"/>
+        <label xml:lang="en" text="letter"/>
+      </category>
+      <category ID="magazine">
+        <label xml:lang="de" text="Informationszeitschrift"/>
+        <label xml:lang="en" text="magazine"/>
+      </category>
+      <category ID="manuscript">
+        <label xml:lang="de" text="Manuskript"/>
+        <label xml:lang="en" text="manuscript"/>
+      </category>
+      <category ID="musical_notation">
+        <label xml:lang="de" text="Musiknotation"/>
+        <label xml:lang="en" text="musical notation"/>
+      </category>
+      <category ID="newspaper">
+        <label xml:lang="de" text="Zeitung"/>
+        <label xml:lang="en" text="newspaper"/>
+        <category ID="newspaper_article">
+          <label xml:lang="de" text="Zeitungsartikel"/>
+          <label xml:lang="en" text="newspaper article"/>
+        </category>
+      </category>
+      <category ID="other_periodical">
+        <label xml:lang="en" text="other periodical"/>
+      </category>
+      <category ID="preprint">
+        <label xml:lang="de" text="Preprint"/>
+        <label xml:lang="en" text="preprint"/>
+      </category>
+      <category ID="report">
+        <label xml:lang="de" text="Bericht"/>
+        <label xml:lang="en" text="report"/>
+        <category ID="clinical_study">
+          <label xml:lang="de" text="klinische Studie"/>
+          <label xml:lang="en" text="clinical study"/>
+        </category>
+        <category ID="data_management_plan">
+          <label xml:lang="de" text="Datenmanagementplan"/>
+          <label xml:lang="en" text="data management plan"/>
+        </category>
+        <category ID="memorandum">
+          <label xml:lang="de" text="Memorandum"/>
+          <label xml:lang="en" text="memorandum"/>
+        </category>
+        <category ID="policy_report">
+          <label xml:lang="de" text="Policy Report"/>
+          <label xml:lang="en" text="policy report"/>
+        </category>
+        <category ID="project_deliverable">
+          <label xml:lang="de" text="Ergebnis im Projekt"/>
+          <label xml:lang="en" text="project deliverable"/>
+        </category>
+        <category ID="research_protocol">
+          <label xml:lang="en" text="research protocol"/>
+        </category>
+        <category ID="research_report">
+          <label xml:lang="de" text="Forschungsbericht"/>
+          <label xml:lang="en" text="research report"/>
+        </category>
+        <category ID="technical_report">
+          <label xml:lang="de" text="technischer Bericht"/>
+          <label xml:lang="en" text="technical report"/>
+        </category>
+      </category>
+      <category ID="research proposal">
+        <label xml:lang="de" text="Exposé"/>
+        <label xml:lang="en" text="research proposal"/>
+      </category>
+      <category ID="review">
+        <label xml:lang="de" text="Rezension"/>
+        <label xml:lang="en" text="review"/>
+        <category ID="book_review">
+          <label xml:lang="de" text="Buchrezension"/>
+          <label xml:lang="en" text="book review"/>
+        </category>
+        <category ID="commentary">
+          <label xml:lang="de" text="Kommentar"/>
+          <label xml:lang="en" text="commentary"/>
+        </category>
+        <category ID="peer_review">
+          <label xml:lang="de" text="Gutachten"/>
+          <label xml:lang="en" text="peer review"/>
+        </category>
+      </category>
+      <category ID="technical_documentation">
+        <label xml:lang="de" text="Technische Dokumentation"/>
+        <label xml:lang="en" text="technical documentation"/>
+      </category>
+      <category ID="thesis">
+        <label xml:lang="de" text="schriftliche Abschlussarbeit"/>
+        <label xml:lang="en" text="thesis"/>
+        <category ID="bachelor_thesis">
+          <label xml:lang="de" text="Abschlussarbeit (Bachelor)"/>
+          <label xml:lang="en" text="bachelor thesis"/>
+        </category>
+        <category ID="doctoral_thesis">
+          <label xml:lang="de" text="Dissertation"/>
+          <label xml:lang="en" text="doctoral thesis"/>
+        </category>
+        <category ID="master_thesis">
+          <label xml:lang="de" text="Abschlussarbeit (Master)"/>
+          <label xml:lang="en" text="master thesis"/>
+        </category>
+      </category>
+      <category ID="transcription">
+        <label xml:lang="de" text="Transkription"/>
+        <label xml:lang="en" text="transcription"/>
+      </category>
+      <category ID="working_paper">
+        <label xml:lang="de" text="Arbeitspapier"/>
+        <label xml:lang="en" text="working paper"/>
+      </category>
+    </category>
+    <category ID="trademark">
+      <label xml:lang="de" text="Warenzeichen"/>
+      <label xml:lang="en" text="trademark"/>
+    </category>
+    <category ID="workflow">
+      <label xml:lang="de" text="Workflow"/>
+      <label xml:lang="en" text="workflow"/>
+    </category>
+  </categories>
+</mycoreclass>
