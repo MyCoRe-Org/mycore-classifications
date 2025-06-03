@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="coarResourceTypes32">
+  <label xml:lang="de" text="COAR Resource Types 3.2"/>
   <label xml:lang="en" text="COAR Resource Types 3.2"/>
+  <!-- based upon https://vocabularies.coar-repositories.org/resource_types/ -->
   <categories>
     <category ID="F8RT-TJK0">
       <label xml:lang="de" text="Kunstwerk"/>
@@ -381,18 +383,18 @@
         <label xml:lang="de" text="Hochschulschrift"/>
         <label xml:lang="en" text="thesis"/>
         <category ID="c_7a1f">
-          <!-- official label is master thesis, but is not correct, therefore changed here-->
+          <!-- official label is master thesis, but is not correct, therefore it was changed here-->
           <!-- <label xml:lang="de" text="Masterarbeit"/> -->
           <label xml:lang="de" text="Abschlussarbeit (Bachelor)"/>
           <label xml:lang="en" text="bachelor thesis"/>
         </category>
-        <category ID="c_db06">
-          <label xml:lang="de" text="Dissertation"/>
-          <label xml:lang="en" text="doctoral thesis"/>
-        </category>
         <category ID="c_bdcc">
           <label xml:lang="de" text="Abschlussarbeit (Master)"/>
           <label xml:lang="en" text="master thesis"/>
+        </category>
+        <category ID="c_db06">
+          <label xml:lang="de" text="Dissertation"/>
+          <label xml:lang="en" text="doctoral thesis"/>
         </category>
       </category>
       <category ID="6NC7-GK9S">
