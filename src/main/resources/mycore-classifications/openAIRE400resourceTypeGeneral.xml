@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="openAIREResourceTypeGeneral400">
-  <label xml:lang="de" text="OpenAIRE resourceTypeGeneral 4.0.0"/>
-  <label xml:lang="en" text="OpenAIRE resourceTypeGeneral 4.0.0"/>
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="openAIRE400resourceTypeGeneral">
+  <label xml:lang="de" text="OpenAIRE v4.0.0 resourceTypeGeneral"/>
+  <label xml:lang="en" text="OpenAIRE v4.0.0 resourceTypeGeneral"/>
   <!-- Based upon https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationtype.html#attribute-resourcetypegeneral-m -->
   <!-- When exporting classification entries to the OpenAIRE Metadata Format v4.0.0, underscores in IDs must be replaced with spaces. -->
   <categories>
