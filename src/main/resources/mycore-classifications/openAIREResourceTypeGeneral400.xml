@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="openAIREResourceTypeGeneral400">
+  <label xml:lang="de" text="OpenAIRE resourceTypeGeneral 4.0.0"/>
+  <label xml:lang="en" text="OpenAIRE resourceTypeGeneral 4.0.0"/>
+  <!-- based upon https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationtype.html -->
+  <categories>
+    <category ID="literature">
+      <label xml:lang="de" text="Literatur"/>
+      <label xml:lang="en" text="literature"/>
+    </category>
+    <category ID="dataset">
+      <label xml:lang="de" text="Datensatz"/>
+      <label xml:lang="en" text="dataset"/>
+    </category>
+    <category ID="software">
+      <label xml:lang="de" text="Software"/>
+      <label xml:lang="en" text="software"/>
+    </category>
+    <category ID="other_research_product">
+      <label xml:lang="de" text="anderes Forschungsergebnis"/>
+      <label xml:lang="en" text="other research product"/>
+    </category>
+  </categories>
+</mycoreclass> 
