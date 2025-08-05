@@ -3,7 +3,8 @@
   xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="openAIREResourceTypeGeneral400">
   <label xml:lang="de" text="OpenAIRE resourceTypeGeneral 4.0.0"/>
   <label xml:lang="en" text="OpenAIRE resourceTypeGeneral 4.0.0"/>
-  <!-- based upon https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationtype.html#attribute-resourcetypegeneral-m -->
+  <!-- Based upon https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationtype.html#attribute-resourcetypegeneral-m -->
+  <!-- When exporting classification entries to the OpenAIRE Metadata Format v4.0.0, underscores in IDs must be replaced with spaces. -->
   <categories>
     <category ID="dataset">
       <label xml:lang="de" text="Datensatz"/>
