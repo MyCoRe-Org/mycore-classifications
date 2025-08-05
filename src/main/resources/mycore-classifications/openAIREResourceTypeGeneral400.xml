@@ -3,7 +3,7 @@
   xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="openAIREResourceTypeGeneral400">
   <label xml:lang="de" text="OpenAIRE resourceTypeGeneral 4.0.0"/>
   <label xml:lang="en" text="OpenAIRE resourceTypeGeneral 4.0.0"/>
-  <!-- based upon https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationtype.html -->
+  <!-- based upon https://openaire-guidelines-for-literature-repository-managers.readthedocs.io/en/v4.0.0/field_publicationtype.html#attribute-resourcetypegeneral-m -->
   <categories>
     <category ID="dataset">
       <label xml:lang="de" text="Datensatz"/>
