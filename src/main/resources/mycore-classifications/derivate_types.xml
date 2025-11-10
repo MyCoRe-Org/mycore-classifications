@@ -10,6 +10,7 @@
     <category ID="thumbnail">
       <label xml:lang="de" text="Vorschaubild" />
       <label xml:lang="en" text="Thumbnail" />
+      <label xml:lang="x-flags" text="preview:false view:false export:false" />
     </category>
     <category ID="abstract">
       <label xml:lang="de" text="Zusammenfassung" />
@@ -18,6 +19,7 @@
     <category ID="toc">
       <label xml:lang="de" text="Inhaltsverzeichnis" />
       <label xml:lang="en" text="Table of Contents" />
+      <label xml:lang="x-flags" text="preview:false view:false export:false" />
     </category>
   </categories>
 </mycoreclass>
