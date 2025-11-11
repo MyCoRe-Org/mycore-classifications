@@ -18,10 +18,13 @@
   -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.mycore</groupId>
+  <parent>
+    <groupId>org.mycore</groupId>
+    <artifactId>mycore-parent</artifactId>
+    <version>57</version>
+  </parent>
   <artifactId>mycore-classifications</artifactId>
   <version>1.2-SNAPSHOT</version>
-  <packaging>jar</packaging>
   <description>This project provides several classifications, which are commonly used in MyCoRe repositories and applications.</description>
   <url>https://www.mycore.de/classifications/</url>
   <licenses>
@@ -41,25 +44,4 @@
     <url>https://github.com/MyCoRe-Org/mycore-classifications</url>
     <tag>HEAD</tag>
   </scm>
-  <profiles>
-    <profile>
-      <id>deploy-to-sonatype</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.sonatype.central</groupId>
-            <artifactId>central-publishing-maven-plugin</artifactId>
-            <version>0.7.0</version>
-            <extensions>true</extensions>
-            <configuration>
-              <centralSnapshotsUrl>https://central.sonatype.com/repository/maven-snapshots</centralSnapshotsUrl>
-              <publishingServerId>sonatype-central</publishingServerId>
-              <autoPublish>true</autoPublish>
-              <waitUntil>published</waitUntil>
-            </configuration>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
 </project>
