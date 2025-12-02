@@ -277,7 +277,7 @@
       <label xml:lang="en" text="Patent" />
     </category>
     <category ID="poster">
-      <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType:ResearchData diniPublType2022:ConferencePoster schemaOrg:PresentationDigitalDocument coarResourceTypes32:c_6670 openAIRE400resourceTypeGeneral:other_research_product" />
+      <label xml:lang="x-mapping" text="marcgt:technical_drawing diniPublType:conferenceObject diniPublType2022:ConferencePoster schemaOrg:PresentationDigitalDocument coarResourceTypes32:c_6670 openAIRE400resourceTypeGeneral:other_research_product" />
       <label xml:lang="en" text="Poster" />
       <label xml:lang="it" text="Locandina" />
       <label xml:lang="de" text="Poster" />
