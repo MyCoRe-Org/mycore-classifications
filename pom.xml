@@ -25,6 +25,7 @@
   </parent>
   <artifactId>mycore-classifications</artifactId>
   <version>1.2-SNAPSHOT</version>
+  <name>mycore-classifications</name>
   <description>This project provides several classifications, which are commonly used in MyCoRe repositories and applications.</description>
   <url>https://www.mycore.de/classifications/</url>
   <licenses>
