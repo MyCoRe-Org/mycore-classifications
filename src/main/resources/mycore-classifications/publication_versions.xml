@@ -43,5 +43,9 @@
         <label xml:lang="en" text="not applicable (or unknown)" />
       </category>
     </category>
+    <category ID="ER">
+      <label xml:lang="de" text="Elektronische Reproduktion" />
+      <label xml:lang="en" text="Elelectronic Reproduction" />
+    </category>
   </categories>
 </mycoreclass>
