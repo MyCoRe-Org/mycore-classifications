@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass ID="publication_versions"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
+
+  <label xml:lang="de" text="Publikationsversionen" />
+  <label xml:lang="en" text="Publication Version Types"
+                       description="The Publication Version Type vocabulary defines concepts to declare the version of a resource." />
+  <categories>
+    <category ID="EV">
+      <label xml:lang="de" text="Erstveröffentlichung"
+                           description="Eine erstmalig öffentlich zugänglich gemachte Version eines Werks." />
+      <label xml:lang="en" text="Primary Publication"
+                           description="The first time a work is formally released and made accessible to the public." />
+    </category>
+    <category ID="ZV">
+      <label xml:lang="de" text="Zweitveröffentlichung"
+                           description="Eine erneute Veröffentlichung eines bereits publizierten Werks (z. B. in einem anderen Kontext oder Medium)." />
+      <label xml:lang="en" text="Secondary Publication"
+                           description="The re-release of a previously published work in a different venue, format, or medium, such as reprinting a journal article in an edited volume or issuing a translated edition." />
+      <label xml:lang="x-uri" text="http://purl.org/coar/version/" />
+      <!-- The subelements are based on the COAR Version Type vocabulary. It defines concepts to declare the version of a resource. Multilingual labels regard regional distinctions in language and term. The concepts are adopted from the Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group (https://www.niso.org/publications/niso-rp-8-2008-jav)" -->
+      <category ID="SMUR">
+        <label xml:lang="de" text="Eingereichte Version (Preprint)" />
+        <label xml:lang="en" text="Submitted Version (Preprint)"
+                             description="Any version of a resource that is under formal review managed by a socially recognized publishing entity. The entity recognizes its responsibility to provide objective expert review and feedback to the author, and, ultimately, to pass judgment on the fitness of the resource for publication with an “accept” or “reject” decision. May have a version number or date stamp. Content and ayout follow publisher’s submission requirements." />
+        <label xml:lang="x-uri" text="http://purl.org/coar/version/c_71e4c1898caa6e32" />
+      </category>
+      <category ID="AM">
+        <label xml:lang="de" text="Akzeptiertes Manuskript (Postprint)" />
+        <label xml:lang="en" text="Accepted Manuscript (Postprint)"
+                             description = "The version of a resource that has been accepted for publication. A second party takes permanent responsibility for the resource. Content and layout follow publisher’s submission requirements"  />
+        <label xml:lang="x-uri" text="http://purl.org/coar/version/c_ab4af688f83e57aa" />
+      </category>
+      <category ID="VoR">
+        <label xml:lang="de" text="Originale Verlagspublikation" />
+        <label xml:lang="en" text="Publisher Version"
+                             description="A fixed version of a resource that has been made available by any organization that acts as a publisher by formally and exclusively declaring the resource “published”. This includes any “early release” resource that is formally identified as being published even before the compilation of a volume issue and assignment of associated metadata, as long as it is citable via some permanent identifier(s). This does not include any “early release” resource that has not yet been “fixed” by processes that are still to be applied, such as copy-editing, proof corrections, layout, and typesetting. " />
+        <label xml:lang="x-uri" text="http://purl.org/coar/version/c_970fb48d4fbd8a85" />
+      </category>
+      <category ID="AO">
+        <label xml:lang="de" text="Autorenversion" />
+        <label xml:lang="en" text="Author's Original"
+                             description="Any version of a resource that is considered by the author to be of sufficient quality to be submitted for formal peer review by a second party. The author accepts full responsibility for the resource . May have a version number or date stamp. Content and layout as set out by the author." />
+        <label xml:lang="x-uri" text="http://purl.org/coar/version/c_b1a7d7d4d402bcce" />
+      </category>
+      <category ID="EVoR">
+        <label xml:lang="de" text="Aktualisierte Version" />
+        <label xml:lang="en" text="Enhanced Version of Record"
+                             description="A version of the Version of Record of a resource that has been updated or enhanced by the provision of supplementary material." />
+        <label xml:lang="x-uri" text="http://purl.org/coar/version/c_dc82b40f9837b551" />
+      </category>
+      <category ID="P">
+        <label xml:lang="de" text="Korrekturfahne" />
+        <label xml:lang="en" text="Proof"
+                             description="A version of a resource that is created as part of the publication process. This includes the copy-edited manuscript, galley proofs (i.e., a typeset version that has not been made up into pages), page proofs, and revised proofs. Some of these versions may remain essentially internal process versions, but others are commonly released from the internal environment (e.g., proofs are sent to authors) and may thus become public, even though they are not authorized to be so. Content has been changed from Accepted Manuscript; layout is the publisher’s." />
+        <label xml:lang="x-uri" text="http://purl.org/coar/version/c_fa2ee174bc00049f" />
+      </category>
+      <category ID="CVoR">
+        <label xml:lang="de" text="Korrigierte Version" />
+        <label xml:lang="en" text="Corrected Version of Record"
+                             description="A version of the Version of Record of a resource in which errors in the VoR have been corrected. The errors may be author errors, publisher errors, or other processing errors. " />
+        <label xml:lang="x-uri" text="http://purl.org/coar/version/c_e19f295774971610" />
+      </category>
+      <category ID="NA">
+        <label xml:lang="de" text="keine Angabe" />
+        <label xml:lang="en" text="Not Applicable (or Unknown)"
+                             descripton="Not Applicable (or Unknown)" />
+        <label xml:lang="x-uri" text="http://purl.org/coar/version/c_be7fb7dd8ff6fe43" />
+      </category>
+    </category>
+    <category ID="ER">
+      <label xml:lang="de" text="Elektronische Reproduktion"
+                           description="Eine digitale Wiedergabe oder Kopie eines (meist gedruckten) Werks." />
+      <label xml:lang="en" text="Elelectronic Reproduction"
+                           description="A digitized version of a physical, typically printed original, created by scanning or other digital capture methods." />
+    </category>
+  </categories>
+</mycoreclass>
