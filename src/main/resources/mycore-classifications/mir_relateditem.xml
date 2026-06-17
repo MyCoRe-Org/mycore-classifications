@@ -4,8 +4,8 @@
   <label xml:lang="en" text="relateditem" />
   <categories>
     <category ID="has_grouping">
-      <label xml:lang="de" text="Has Grouping" />
-      <label xml:lang="en" text="Hat Gruppierung" />
+      <label xml:lang="de" text="Hat Gruppierung" />
+      <label xml:lang="en" text="Has Grouping" />
     </category>
   </categories>
 </mycoreclass>
