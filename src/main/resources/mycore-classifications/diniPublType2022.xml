@@ -32,12 +32,14 @@
       <label xml:lang="en" text="Scientific article"
              description="An Article is published in a scientific or research journal or in a periodical."/>
       <label xml:lang="x-source" text="KDSF (Pu11)"/>
+      <label xml:lang="x-xmdp-type" text="periodical-part"/>
       <category ID="ResearchArticle">
         <label xml:lang="de" text="Forschungsartikel"
                description="Ein Forschungsartikel (Research Article) ist ein Artikel , dessen Autor*innen über Methoden und Ergebnisse ihrer originären Forschung berichten."/>
         <label xml:lang="en" text="Research article"
                description="A research article is a primary source, that reports the methods and results of an original study performed by the authors."/>
         <label xml:lang="x-source" text="COAR"/>
+        <label xml:lang="x-xmdp-type" text="periodical-part"/>
       </category>
       <category ID="ReviewArticle">
         <label xml:lang="de" text="Uebersichtsartikel"
@@ -45,6 +47,7 @@
         <label xml:lang="en" text="Review article"
                description="A review article is an overview article summarising scientific papers which have already been published."/>
         <label xml:lang="x-source" text="KDSF (Pu114)"/>
+        <label xml:lang="x-xmdp-type" text="periodical-part"/>
       </category>
       <category ID="Corrigendum">
         <label xml:lang="de" text="Korrigendum"
@@ -52,6 +55,7 @@
         <label xml:lang="en" text="Corrigendum"
                description="A formal correction to an error introduced by the author into a previously published document."/>
         <label xml:lang="x-source" text="COAR"/>
+        <label xml:lang="x-xmdp-type" text="periodical-part"/>
       </category>
       <category ID="DataPaper">
         <label xml:lang="de" text="Data Paper"
@@ -59,6 +63,7 @@
         <label xml:lang="en" text="Data paper"
                description="A data paper is a scholarly publication describing a particular dataset or group of dataset, published in the form of a peer-reviewed article in a scholarly journal. The main purpose of a data paper is to describe data, the circumstances of their collection, and information related to data features, access and potential reuse."/>
         <label xml:lang="x-source" text="COAR"/>
+        <label xml:lang="x-xmdp-type" text="periodical-part"/>
       </category>
       <category ID="SoftwarePaper">
         <label xml:lang="de" text="Softwareartikel"
@@ -66,6 +71,7 @@
         <label xml:lang="en" text="Software paper"
                description="A software paper should include the rationale for the development of the tool and details of the code used for its construction."/>
         <label xml:lang="x-source" text="COAR"/>
+        <label xml:lang="x-xmdp-type" text="periodical-part"/>
       </category>
     </category>
     <category ID="Editorial">
@@ -74,6 +80,7 @@
       <label xml:lang="en" text="Editorial"
              description="An editorial is a text written by the editors or on behalf of the editors expressing the opinion of the editorial board."/>
       <label xml:lang="x-source" text="KDSF"/>
+      <label xml:lang="x-xmdp-type" text="periodical-part"/>
     </category>
     <category ID="LetterToTheEditor">
       <label xml:lang="de" text="Letter to the editor"
@@ -81,6 +88,7 @@
       <label xml:lang="en" text="Letter to the editor"
              description="A letter to the editor is a letter sent to a periodical."/>
       <label xml:lang="x-source" text="KDSF"/>
+      <label xml:lang="x-xmdp-type" text="periodical-part"/>
     </category>
     <category ID="ContributionToPeriodical">
       <label xml:lang="de" text="Beitrag zu einem Periodikum"
@@ -88,6 +96,7 @@
       <label xml:lang="en" text="Contribution to periodical"
              description="A contribution to a periodical is a contribution to a newspaper, weekly magazine or another non-academic periodical."/>
       <label xml:lang="x-source" text="DRIVER"/>
+      <label xml:lang="x-xmdp-type" text="periodical-part"/>
     </category>
     <category ID="PeriodicalPart">
       <label xml:lang="de" text="Teil eines Periodikums"
@@ -95,6 +104,7 @@
       <label xml:lang="en" text="Periodical part"
              description="A part of a periodical contains in general more than one article."/>
       <label xml:lang="x-source" text="DINI"/>
+      <label xml:lang="x-xmdp-type" text="periodical-part"/>
     </category>
     <category ID="Periodical">
       <label xml:lang="de" text="Periodikum"
@@ -158,6 +168,8 @@
       <label xml:lang="en" text="Bachelor thesis"
              description="A bachelor thesis is the lowest level of a thesis."/>
       <label xml:lang="x-source" text="DRIVER"/>
+      <label xml:lang="x-xmdp-type" text="thesis"/>
+      <label xml:lang="x-xmdp-fallback" text="Monograph"/>
     </category>
     <category ID="MasterThesis">
       <label xml:lang="de" text="Abschlussarbeit (Master)"
@@ -165,6 +177,8 @@
       <label xml:lang="en" text="master thesis"
              description="A master thesis is an intermediate level of a thesis. This also refers to theses of the pre-Bologna period for degrees that are at the same level as what now is known as a master degree."/>
       <label xml:lang="x-source" text="DRIVER"/>
+      <label xml:lang="x-xmdp-type" text="thesis"/>
+      <label xml:lang="x-xmdp-fallback" text="Monograph"/>
     </category>
     <category ID="DoctoralThesis">
       <label xml:lang="de" text="Dissertation oder Habilitation"
@@ -172,12 +186,16 @@
       <label xml:lang="en" text="Doctoral thesis"
              description="A doctoral thesis is the highest level of a thesis. Also everything equal and higher than a doctoral thesis, that does not follow the “Bologna Convention”, will be put in the category doctoralThesis. A free text field will provide the opportunity to specify this further."/>
       <label xml:lang="x-source" text="DRIVER"/>
+      <label xml:lang="x-xmdp-type" text="thesis higher-level"/>
+      <label xml:lang="x-xmdp-fallback" text="Monograph"/>
       <category ID="PhDThesis">
         <label xml:lang="de" text="Dissertation"
                description="Eine Dissertation ist eine wissenschaftliche Arbeit für den Erwerb des Doktorgrades."/>
         <label xml:lang="en" text="PhD thesis"
                description="A dissertation is a scientific work needed for the completion of a doctorate (PhD) degree."/>
         <label xml:lang="x-source" text="KDSF (Pu34)"/>
+        <label xml:lang="x-xmdp-type" text="thesis higher-level"/>
+        <label xml:lang="x-xmdp-fallback" text="Monograph"/>
       </category>
       <category ID="Habilitation">
         <label xml:lang="de" text="Habilitation"
@@ -185,6 +203,8 @@
         <label xml:lang="en" text="Habilitation"
                description="A habilitation is a scientific work needed for receiving the Venia legendi."/>
         <label xml:lang="x-source" text="KDSF (Pu35)"/>
+        <label xml:lang="x-xmdp-type" text="thesis higher-level"/>
+        <label xml:lang="x-xmdp-fallback" text="Monograph"/>
       </category>
     </category>
     <category ID="ConferenceObject">
