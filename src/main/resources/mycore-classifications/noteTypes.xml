@@ -61,8 +61,13 @@
       <label xml:lang="en" text="source characteristics" />
     </category>
     <category ID="restriction">
-      <label xml:lang="de" text="Restriktion" />
-      <label xml:lang="en" text="restriction" />
+      <label xml:lang="de" text="Restriktion (Sperrvermerk)" />
+      <label xml:lang="en" text="access restriction" />
+      <label xml:lang="x-access" text="guest" />
+    </category>
+    <category ID="deletion">
+      <label xml:lang="de" text="Löschvermerk" />
+      <label xml:lang="en" text="deletion note" />
       <label xml:lang="x-access" text="guest" />
     </category>
     <category ID="reproduction">
