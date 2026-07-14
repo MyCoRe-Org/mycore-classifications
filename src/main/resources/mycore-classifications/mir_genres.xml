@@ -152,6 +152,13 @@
       <label xml:lang="it" text="Raggruppamento" />
       <label xml:lang="x-mapping" text="coarResourceTypes32:RMP5-3GQ6 openAIRE400resourceTypeGeneral:other_research_product" />
     </category>
+    <category ID="meeting_abstract">
+      <label xml:lang="en" text="Meeting Abstract" />
+      <label xml:lang="de" text="Konferenzabstract" />
+      <label xml:lang="it" text="Abstract della conferenza" />
+      <label xml:lang="x-hosts" text="standalone proceedings journal" />
+      <label xml:lang="x-mapping" text="marcgt:conference_publication diniPublType:conferenceObject diniPublType2022:MeetingAbstract schemaOrg:ScholarlyArticle coarResourceTypes32:c_c94f openAIRE400resourceTypeGeneral:literature" />
+    </category>
     <category ID="report">
       <label xml:lang="x-hosts" text="standalone" />
       <label xml:lang="de" text="Report" />
